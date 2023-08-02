@@ -29,12 +29,6 @@ nav {
 	padding: 1rem 5%;
 }
 
-nav h1 {
-	display: flex;
-	align-items: center;
-	gap: 0.5rem;
-}
-
 .nav-list {
 	display: flex;
 	align-items: center;
@@ -72,7 +66,7 @@ header {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 35rem;
+	height: 32rem;
 	width: 50%;
 	z-index: -100;
 	float: right;
