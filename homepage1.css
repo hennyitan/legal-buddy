@@ -1,0 +1,312 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap');
+ 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Lato', sans-serif;
+   
+}
+.text{
+    margin-left: 70px;
+    align-items: center;
+    padding-top: 5rem;
+}
+.text p{
+color: var(--6, #3A3A38);
+font-family: DM Serif Display;
+font-size:4rem;
+font-weight: 400; 
+text-transform: capitalize;
+gap: 1rem;
+
+
+}
+.text p span{
+color: var(--3, #9A9162);
+font-family: DM Serif Display;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border: black 10px;
+    padding-top: 40px;
+    background: var(--2, #E8E9E1);
+   
+    
+}
+.home img{
+    height: 60vh;
+
+}
+
+.text button{
+    background-color: var(--1, #1E2E45);
+    color: #E8E9E1;
+    border-radius: 0;
+    font-size: 1.2rem;
+}
+.section2{
+    padding: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   
+   
+   
+}
+.section2 img{
+    height: 60vh;
+}
+.vertical-line{
+    width: 1px;
+    height: 560px;
+    background-color: black;
+}
+.about-us p{
+    color: var(--6, #3A3A38);
+    font-family: DM Serif Display;
+    font-size:2.8rem;
+    font-weight: 400; 
+    text-transform: capitalize;
+    gap: 1;
+    
+
+}
+.about-us .about{
+    font-size:1.3rem ;
+
+}
+.lorem{
+    text-align: center;
+    padding: 60px;
+    
+}
+.lorem button{
+    background-color: var(--1, #1E2E45);
+    color: #E8E9E1;
+    border-radius: 0;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.partner{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.partner h1{
+    color: var(--6, #3A3A38);
+    font-family: DM Serif Display;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding-left:300px ;
+    margin: 20px;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons .vertical-line{
+    height: 300px !important;
+}
+.prof-serv{
+    display: flex;
+    flex-direction: row;
+    background: var(--1, #1E2E45);
+    justify-content: center;
+    align-items: center;
+}
+.law{
+    padding: 60px;
+    justify-content: center;
+}
+.law h1{
+    font-family: DM Serif Display;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+   
+}
+.law h6{
+color: var(--6, #3A3A38);
+font-family: DM Serif Display;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+padding-left: 150px;
+
+}
+.prof{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.prof h1{
+    color: var(--6, #3A3A38);
+/* H1 */
+font-family: DM Serif Display;
+font-size: 68px;
+font-style: normal;
+font-weight: 400;
+text-transform: capitalize;
+}
+.prof p{
+    color: var(--6, #3A3A38);
+/* Body1/Regular */
+font-family: DM Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.help{
+    background: var(--1, #1E2E45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.help h1{
+    color: var(--4, #FFF);
+    /* H1 */
+    font-family: DM Serif Display;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    background: var(--1, #1E2E45);
+}
+.help p{
+    color: var(--4, #FFF);
+text-align: center;
+/* Body1/Regular */
+font-family: DM Sans;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+background: var(--1, #1E2E45);
+}
+
+.help button{
+ display: flex;
+width: 160px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap:5px;
+background: var(--3, #9A9162);
+font-size: 1.2rem;
+}
+.card-body button {
+    color: var(--4, #FFF);
+}
+.years{
+    padding: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.years img{
+    height: 40vh;
+}
+.check-tick{
+    display: flex;
+    flex-direction: row;
+    padding-right: 400px !important;
+}
+
+.check-tick img{
+    height: 2vh;
+}
+.image13{
+    border-radius: 50%;
+    padding-left: 100px !important;
+    align-self: center;
+}
+
+.blog .btn{
+    padding: 5px;
+    border-radius: 2px;
+    background: var(--1, #1E2E45);
+    gap: 3rem;
+
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+   background: var(--2, #E8E9E1);
+   padding-left: 160px;
+  
+}
+.news h1{
+    font-family: DM Serif Display;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+    
+}
+.news a{
+    text-align: end;
+    text-decoration: none;
+    color: #3A3A38;
+    padding-left: 1200px;
+    padding-top: 2px;
+}
+.cases{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+   background: var(--2, #E8E9E1);
+   padding-left: 160px;
+   padding-top:10px ;
+}
+.cases h1{
+    font-family: DM Serif Display;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+.cases a{
+    font-family: DM Serif Display;
+    text-align: end;
+    text-decoration: none;
+    color: #3A3A38;
+    padding-left: 1200px;
+    padding-top: 2px;
+}
+.card-body .btn{
+   
+    border-radius: 2px;
+    background: var(--1, #1E2E45);
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
