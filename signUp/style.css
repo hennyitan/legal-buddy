@@ -50,6 +50,11 @@ body
 	color: var(--blue) !important;
 }
 
+body > header > nav > div > button.btn.btn-light.px-3.py-1 > a {
+	text-decoration: none;
+	color: var(--white);
+}
+
 body
 	> footer
 	> section
