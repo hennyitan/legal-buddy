@@ -43,6 +43,10 @@ nav {
 
 /* header  */
 
+body > header > nav > div > button.btn.btn-light.px-3.py-1 > a {
+	color: var(--blue);
+}
+
 header {
 	background-color: var(--blue);
 }
@@ -74,6 +78,22 @@ body > footer > section.pb-3 {
 	background-color: var(--blue);
 }
 body > main > section.z-n1 {
+	background-color: var(--grey);
+}
+
+body > main > section.pt-5,
+body > main > section:nth-child(2),
+body > main > section:nth-child(2) > div.row.gap-5 > div:nth-child(1) > div,
+body > main > section:nth-child(2) > div.row.gap-5 > div:nth-child(2) > div,
+body > main > section:nth-child(2) > div.row.gap-5 > div:nth-child(3) > div,
+body > main > section:nth-child(4),
+body
+	> main
+	> section:nth-child(4)
+	> div.pt-4
+	> div.d-flex.gap-3.py-5.align-items-center.justify-content-between
+	> div
+	> div {
 	background-color: var(--grey);
 }
 
