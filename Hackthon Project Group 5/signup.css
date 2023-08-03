@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+
+*{
+    padding: none;
+    margin: none;
+}
+body{
+    
+    height: 100vh;
+    place-items: center;
+    background-color: #F6F2DC !important;
+  
+}
+.section-1{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+    margin-top: 3rem;
+    padding: 10px;
+    border-radius: 2px;
+    border: 2px solid transparent;
+    box-shadow: 10rem ;
+    background-color: #faf9f9;
+}
+.custom-btn{
+    height: 5rem;
+    line-height: 2rem;
+    position: relative;
+}
+.Ellipse{
+    position: absolute;
+    top: calc(25%);
+    left: 2rem;
+    z-index: 1;
+}
+.form{
+    position: relative;
+}
+.eye-icon{
+    position: absolute;
+    top: calc(29%);
+    left: 89%;
+    width: 1.4rem;
+}
+
+.google-icon{
+    position: absolute;
+    top: calc(22%);
+    left: 1rem;
+    width: 1.6rem;
+}
+.custom-gap{
+    margin: 0;
+}
+.button-1{
+    border-radius: 1;
+}
+.button-2{
+    background-color: #1C2953 !important;
+    border-radius: 0 !important;
+    height: 5rem;
+    line-height: 2rem;
+    width: 18rem;
+    font-family: 'Roboto', sans-serif;
+}
+.button3{
+    background-color: #E8E9E1 !important;
+    border-radius: 1;
+    height: 5rem;
+    line-height: 2rem;
+    width: 18rem;
+}
+.button-4{
+    background-color: #1C2953 !important;
+    border-radius: 1;
+}
+.Text-desk{
+justify-content: end;
+}
+/* Footer Begins */
+footer{
+    background-color: #1C2953;
+}
+.single-box p{
+    line-height: 1.9;
+}
+.single-box h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.single-box a{
+    text-decoration: none;
+    color: white;
+}
