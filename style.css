@@ -51,7 +51,14 @@ body > header > section > div > h1 > span {
 	color: var(--gold);
 }
 
-body > header > section > div > div > button {
+body > header > section > div > div > button,
+body
+	> header
+	> section
+	> div
+	> div:nth-child(1)
+	> div.border-top.col-5.border-white.d-flex.justify-content-center.border-2.mt-5
+	> button {
 	background-color: var(--gold) !important;
 }
 
@@ -70,7 +77,8 @@ body > main > section.z-n1 {
 	background-color: var(--grey);
 }
 
-body > footer > section > div.d-flex.justify-content-center > p {
+body > footer > section > div.d-flex.justify-content-center > p,
+body > header > section > div > div:nth-child(1) > div.row > h1 > span {
 	color: var(--gold);
 }
 
