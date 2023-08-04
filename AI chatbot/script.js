@@ -40,7 +40,7 @@ function processUserMessage(message) {
 		// Simulate processing and presenting lawyer list...
 		setTimeout(() => {
 			addMessage(
-				`AI Chatbot: Here are some lawyers in your location:  
+				`AI Chatbot: Here are some lawyers in your location :  
 				Yaseerah Umar,
 				Joseph Daniel,
 				Abdulaziz Bello Pyawu,
