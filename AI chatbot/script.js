@@ -22,24 +22,31 @@ function addMessage(message) {
 
 function processUserMessage(message) {
 	if (
-		message.toLowerCase().includes("hi") ||
-		message.toLowerCase().includes("hello")
+		message.toLowerCase().includes("abuse") ||
+		message.toLowerCase().includes("rape") ||
+		message.toLowerCase().includes("divorce")
 	) {
 		addMessage(
-			"AI Chatbot: Thank you for introducing yourself. How can I assist you today? Are you looking for a lawyer to draft agreements or handle a legal matter?"
+			"AI Chatbot: How can I assist you today? Are you looking for a lawyer to draft agreements or handle a legal matter?"
 		);
 	} else if (message.toLowerCase().includes("draft agreement")) {
 		addMessage(
 			"AI Chatbot: Great! I can help with that. To better assist you, could you please provide me with some details about the agreement you need?"
 		);
-	} else if (message.toLowerCase().includes("rental property lease")) {
+	} else if (message.toLowerCase().includes("legal matter")) {
 		addMessage(
-			"AI Chatbot: Perfect! I'll match you with lawyers in your location who can help with rental property lease agreements. Please hold on for a moment while I find the best matches for you."
+			"AI Chatbot: Perfect! I'll match you with lawyers in your location who can help with legal matters. Please hold on for a moment while I find the best matches for you."
 		);
 		// Simulate processing and presenting lawyer list...
 		setTimeout(() => {
 			addMessage(
-				"AI Chatbot: Here are some lawyers in your location who specialize in rental property lease agreements. You can review their profiles and choose the one that suits you best. If you have any questions or need further assistance, feel free to ask."
+				`AI Chatbot: Here are some lawyers in your location who specialize in rental property lease agreements:  
+				Yaseerah Umar,
+				Joseph Daniel,
+				Abdulaziz Bello Pyawu,
+Ayomide Micheal,
+Alex Iwobi
+				You can review their profiles and choose the one that suits you best. If you have any questions or need further assistance, feel free to ask.`
 			);
 		}, 2000);
 	} else if (message.toLowerCase().includes("abused at work")) {
@@ -49,7 +56,13 @@ function processUserMessage(message) {
 		// Simulate processing and presenting pro bono lawyer list...
 		setTimeout(() => {
 			addMessage(
-				"AI Chatbot: Here are some lawyers who specialize in pro bono cases related to workplace abuse. They can assist you further. Take your time to review their profiles, and if you have any questions, feel free to ask."
+				`AI Chatbot: Here are some lawyers who specialize in pro bono cases related to workplace abuse:
+				Yaseerah Umar,
+Joseph Daniel,
+Abdulaziz Bello Pyawu,
+Ayomide Micheal,
+Alex Iwobi,
+				They can assist you further. Take your time to review their profiles, and if you have any questions, feel free to ask.`
 			);
 		}, 2000);
 	} else {
