@@ -35,12 +35,12 @@ function processUserMessage(message) {
 		);
 	} else if (message.toLowerCase().includes("legal matter")) {
 		addMessage(
-			"AI Chatbot: Perfect! I'll match you with lawyers in your location who can help with legal matters. Please hold on for a moment while I find the best matches for you."
+			"AI Chatbot: Perfect! I'll match you with lawyers in your location. Please hold on for a moment while I find the best matches for you."
 		);
 		// Simulate processing and presenting lawyer list...
 		setTimeout(() => {
 			addMessage(
-				`AI Chatbot: Here are some lawyers in your location who specialize in rental property lease agreements:  
+				`AI Chatbot: Here are some lawyers in your location:  
 				Yaseerah Umar,
 				Joseph Daniel,
 				Abdulaziz Bello Pyawu,
