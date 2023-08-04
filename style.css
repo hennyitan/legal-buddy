@@ -73,7 +73,8 @@ body
 	> div.container.align-items-center.ps-5.pe-5
 	> div
 	> div.d-flex.align-items-center.justify-content-center
-	> button {
+	> button,
+body > header > div {
 	background-color: var(--gold) !important;
 }
 

@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="./style.css" />
 		<title>landing page</title>
 	</head>
-	<body>
+	<body class="position-relative">
 		<header class="vh-100">
 			<nav class="d-flex justify-content-between align-items-center">
 				<div>
@@ -40,7 +40,11 @@
 						</a>
 						<ul class="text-dark dropdown-menu">
 							<li>
-								<a class="dropdown-item text-dark" href="./AI chatbot/index.html">AI CHATBOX</a>
+								<a
+									class="dropdown-item text-dark"
+									href="./AI chatbot/index.html"
+									>AI CHATBOX</a
+								>
 							</li>
 							<li>
 								<a class="text-dark dropdown-item" href="#"
@@ -96,6 +100,15 @@
 					</div>
 				</div>
 			</section>
+			<div
+				class="position-fixed bottom-0 end-0 z-3 text-white rounded-circle p-3"
+			>
+				<a
+					href="./AI chatbot/index.html"
+					class="text-decoration-none text-white fs-4"
+					><img src="./images/ion_chatbox-ellipses-outline.png" alt="chat-icon"
+				/></a>
+			</div>
 		</header>
 		<main>
 			<section class="px-3">
@@ -325,9 +338,9 @@
 					</div>
 				</div>
 				<div class="d-flex gap-5 justify-content-between pt-5">
-					<div class="row gap-4">
-						<div class="card rounded-0 py-0 px-3 col p-0">
-							<div class="card-body py-0">
+					<div class="carousel slide row gap-4">
+						<div class="card carousel-inner rounded-0 py-0 px-3 col p-0">
+							<div class="carousel-item active card-body py-0">
 								<div class="pt-4 pb-5">
 									<img
 										class="rounded-0"
@@ -410,6 +423,31 @@
 						<!-- <div class="col-1 d-flex align-items-center justify-content-center">
 							<img src="./images/Group 42.png" alt="arrow" />
 						</div> -->
+
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carouselExample"
+							data-bs-slide="prev"
+						>
+							<span
+								class="carousel-control-prev-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carouselExample"
+							data-bs-slide="next"
+						>
+							<span
+								class="carousel-control-next-icon"
+								aria-hidden="true"
+							></span>
+							<span class="visually-hidden">Next</span>
+						</button>
 					</div>
 				</div>
 				<div class="pt-5 text-center">

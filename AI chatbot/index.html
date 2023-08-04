@@ -1,41 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Legal Buddy Chatbot</title>
-</head>
-<body>
-  <div id="chatbox">
-    <p>Welcome to the Legal Buddy Lawyer Connection Service!</p>
-  </div>
-  <input type="text" id="userInput" placeholder="Type 'affordable' or 'pro bono'">
-  <button onclick="processUserInput()">Submit</button>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Legal Buddy Chatbot</title>
+	</head>
+	<body>
+		<div id="chatbox">
+			<div class="message">
+				AI Chatbot: Hello! Welcome to Legal Buddy. I'm here to assist you. To
+				get started, could you please provide me with some basic information
+				about yourself?
+			</div>
+		</div>
+		<input type="text" id="userInput" placeholder="Type your message here..." />
+		<button onclick="sendMessage()">Send</button>
 
-  <script>
-    function getProBonoLawyer() {
-      const chatbox = document.getElementById('chatbox');
-      chatbox.innerHTML += "<p>You have been added to the queue for a pro bono lawyer.</p><p>Please wait to be contacted. Thank you!</p>";
-    }
-
-    function getAffordableLawyer() {
-      const chatbox = document.getElementById('chatbox');
-      const city = prompt("Please enter your city of residence:").trim().capitalize();
-      const town = prompt("Please enter your town of residence:").trim().capitalize();
-      chatbox.innerHTML += `<p>Thank you! We will connect you with an affordable lawyer in ${city}, ${town}.</p>`;
-    }
-
-    function processUserInput() {
-      const userInput = document.getElementById('userInput').value.trim().toLowerCase();
-      const chatbox = document.getElementById('chatbox');
-      chatbox.innerHTML += `<p>User: ${userInput}</p>`;
-
-      if (userInput === 'pro bono') {
-        getProBonoLawyer();
-      } else if (userInput === 'affordable') {
-        getAffordableLawyer();
-      } else {
-        chatbox.innerHTML += "<p>Invalid input. Please choose 'affordable' or 'pro bono'.</p>";
-      }
-    }
-  </script>
-</body>
+		<script src="./script.js"></script>
+	</body>
 </html>
